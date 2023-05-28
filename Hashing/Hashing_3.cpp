@@ -15,10 +15,10 @@ int main(){
         mpp[arr[i]]++;
     }
 
-    // cout << "Map is :" << endl;
-    // for(auto it: mpp){
-    //     cout << it.first << " -> " << it.second << endl;
-    // }
+    cout << "Map is :" << endl;
+    for(auto it: mpp){
+        cout << it.first << " -> " << it.second << endl;
+    }
 
     cout << "Enter number of elements you want to find : ";
     int q; cin >> q;

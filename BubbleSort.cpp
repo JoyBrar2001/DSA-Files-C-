@@ -26,8 +26,7 @@ int main(){
 
     cout << "Enter the elements in array : " << endl;
     int arr[n];
-    for(int i = 0; i < n; i++)
-        cin >> arr[i];
+    for(int i = 0; i < n; i++) cin >> arr[i];
 
     bubbleSort(arr,n);
 
